@@ -1,0 +1,21 @@
+let num: number = 10;
+let str: string = "Hello, TypeScript!";
+let bool: boolean = true;
+let arr: number[] = [1, 2, 3];
+let tuple: [string, number] = ["apple", 5];
+ enum Color { Red, Green, Blue };
+let anyVar: any = 5;
+let voidVar: void = undefined;
+let nullVar: null = null;
+let undefinedVar: undefined = undefined;
+
+console.log("Number:", num);
+console.log("String:", str);
+console.log("Boolean:", bool);
+console.log("Array:", arr);
+console.log("Tuple:", tuple);
+console.log("Enum:", Color);
+console.log("Any:", anyVar);
+console.log("Void:", voidVar);
+console.log("Null:", nullVar);
+console.log("Undefined:", undefinedVar);
